@@ -1,0 +1,8 @@
+sudo docker build -t mn-ryu .
+sudo docker run --privileged -it  -v $(pwd)/ryu_logs:/logs -p 5530-5540:5530-5540  mn-ryu
+sudo docker ps -a
+sudo docker exec -it laughing_saha bash
+
+sudo docker pull timam91/mn-ryu:demo
+sudo docker login -u timam91
+password Timamne"91

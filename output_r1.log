@@ -1,0 +1,56 @@
+loading app ./flowmanager/flowmanager.py
+loading app ryu.app.simple_switch_13
+loading app ryu.controller.ofp_handler
+loading app ryu.topology.switches
+loading app ryu.controller.ofp_handler
+creating context wsgi
+instantiating app None of DPSet
+creating context dpset
+instantiating app ./flowmanager/flowmanager.py of FlowManager
+Created flowmanager
+instantiating app ryu.app.simple_switch_13 of SimpleSwitch13
+instantiating app ryu.controller.ofp_handler of OFPHandler
+instantiating app ryu.topology.switches of Switches
+(583535) wsgi starting up on http://0.0.0.0:4433
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 52982)
+ErrorMsg, None, 1, 1
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 52986)
+ErrorMsg, None, 1, 1
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 53038)
+ErrorMsg, None, 1, 1
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 33418)
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 33420)
+ErrorMsg, None, 1, 1
+ErrorMsg, None, 1, 1
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 34496)
+ErrorMsg, None, 1, 1
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 34512)
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 34528)
+ErrorMsg, None, 1, 1
+ErrorMsg, None, 1, 1
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 39162)
+ErrorMsg, None, 1, 1
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 39336)
+ErrorMsg, None, 1, 1
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 41278)
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 41282)
+ErrorMsg, None, 1, 1
+ErrorMsg, None, 1, 1
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 36312)
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 36314)
+ErrorMsg, None, 1, 1
+ErrorMsg, None, 1, 1
+unsupported version 0x1. If possible, set the switch to use one of the versions [4] on datapath ('127.0.0.1', 57974)
+ErrorMsg, None, 1, 1
+(583535) accepted ('127.0.0.1', 33934)
+127.0.0.1 - - [21/Oct/2025 12:38:42] "GET /home/css/table.css?v2 HTTP/1.1" 200 2582 0.000938
+127.0.0.1 - - [21/Oct/2025 12:38:42] "GET /home/js/mainmenu.js HTTP/1.1" 200 1986 0.000172
+(583535) accepted ('127.0.0.1', 33938)
+(583535) accepted ('127.0.0.1', 33958)
+127.0.0.1 - - [21/Oct/2025 12:38:42] "GET /home/js/topology.js HTTP/1.1" 200 11069 0.000180
+127.0.0.1 - - [21/Oct/2025 12:38:42] "GET /home/css/tabs.css?v1 HTTP/1.1" 200 1694 0.000145
+127.0.0.1 - - [21/Oct/2025 12:38:42] "GET /home/js/jquery-3.7.1.min.js HTTP/1.1" 200 87674 0.000190
+127.0.0.1 - - [21/Oct/2025 12:38:42] "GET /home/css/colors.css HTTP/1.1" 200 1289 0.000298
+127.0.0.1 - - [21/Oct/2025 12:38:42] "GET /home/img/pc.svg HTTP/1.1" 200 2976 0.000385
+(583535) accepted ('127.0.0.1', 53904)
+(583535) accepted ('127.0.0.1', 40148)

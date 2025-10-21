@@ -1,0 +1,9 @@
+Basically...
+For error in exporting python script
+line 2019 needs to be changed in miniedit.py
+
+instead of for widget, item in self.widgetToItem: it should be for widget, item in self.widgetToItem.items(): because items() must be called on dict and it is correct everwhere else other than this line.
+For error in saving as .mn file
+remove self.convertJsonUnicode call in line 1444 of mininet.py
+
+instead of loadedTopology = self.convertJsonUnicode(json.load(f)) just use loadedTopology = json.load(f). The loadedTopology dict keys are loaded as bytes when using convertJsonUnicode which should actually be strings.
